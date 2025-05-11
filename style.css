@@ -41,6 +41,7 @@ header p {
   cursor: pointer;
   transition: transform 0.2s ease;
   box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+  text-decoration: none;
 }
 
 .tile:hover {
@@ -59,4 +60,8 @@ footer {
   margin-top: 60px;
   font-size: 0.9rem;
   color: #888;
+}
+
+a { 
+  text-decoration: none; 
 }
