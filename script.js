@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   if (downloadTile) {
     downloadTile.addEventListener("click", function () {
-      alert("Wkrótce będzie możliwość pobrania.");
+      window.location.href = "https://github.com/matisio3/RevertMetro/releases";
     });
   }
 
@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   if (galleryTile) {
     galleryTile.addEventListener("click", function () {
-      alert("Galeria zostanie udostępniona wkrótce.");
+      window.location.href = "https://imgur.com/a/MvgQqP2";
     });
   }
 });
